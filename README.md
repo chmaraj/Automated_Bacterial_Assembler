@@ -1,6 +1,9 @@
 # BGA-Application
 Application Development for Bacterial Genome Assembly GUI
 
+Offers a GUI for the sake of in-house analysis of raw sequence files (fastq or fastq.gz) from Illumina sequencing services. Three
+options are available: Run FastQC, Quick Assembly, and Assemble Genome. 
+
 # Dependencies:
 
 Software:
@@ -9,9 +12,6 @@ Software:
 - FastQC (https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
 
 - BBTools (https://jgi.doe.gov/data-and-tools/bbtools/)
-
-Offers a GUI for the sake of in-house analysis of raw sequence files (fastq or fastq.gz) from Illumina sequencing services. Three
-options are available: Run FastQC, Quick Assembly, and Assemble Genome. 
 
 Run FastQC: input a directory containing raw read files, input a directory to output files to, and a number of threads to use.
 Returns html files per sample with the QC statistics of associated reads. 
