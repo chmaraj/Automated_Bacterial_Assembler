@@ -1,13 +1,14 @@
 # BGA-Application
 Application Development for Bacterial Genome Assembly GUI
 
-Dependencies:
+#Dependencies:
 
--Java
+Software:
+- Java
 
--FastQC
+- FastQC (https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
 
--BBTools
+- BBTools (https://jgi.doe.gov/data-and-tools/bbtools/)
 
 Offers a GUI for the sake of in-house analysis of raw sequence files (fastq or fastq.gz) from Illumina sequencing services. Three
 options are available: Run FastQC, Quick Assembly, and Assemble Genome. 
