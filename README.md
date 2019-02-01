@@ -12,15 +12,15 @@ Software:
 - BBTools (https://jgi.doe.gov/data-and-tools/bbtools/)
 
 *Run FastQC*: 
-Input a directory containing raw read files, input a directory to output files to, and a number of threads to use.
+  Input a directory containing raw read files, input a directory to output files to, and a number of threads to use.
 Returns html files per sample with the QC statistics of associated reads. 
 
 *Quick Assembly*: 
-Input a directory containing raw read files, input a directory to output files to, and a number of threads to use. Runs the Tadpole assembler of the BBTools package ont he raw read files for extremely crude assemblies. Runs very quickly, 
+  Input a directory containing raw read files, input a directory to output files to, and a number of threads to use. Runs the Tadpole assembler of the BBTools package ont he raw read files for extremely crude assemblies. Runs very quickly, 
 but will return very crude contigs. 
 
 *Assemble Genome*: 
-Input a directory containing raw read files, input a directory to output files to, and a number of threads to use. Runs a modified version of the Bacteria Genome Assembly pipeline which can be found at: 
+  Input a directory containing raw read files, input a directory to output files to, and a number of threads to use. Runs a modified version of the Bacteria Genome Assembly pipeline which can be found at: 
 https://github.com/duceppemo/bacteria_genome_assembly/blob/master/illuminaPE_parallel_assemblies.sh
 Note that many steps have been removed, as they are based on extra dependencies which are not completely necessary. Also, 
 the assembler used is Tadpole, instead of Unicycler. Tadpole runs extremely quickly, but spends no time trying to resolve and
