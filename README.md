@@ -1,7 +1,7 @@
 # BGA-Application
 Application Development for Bacterial Genome Assembly GUI
 
-#Dependencies:
+# Dependencies:
 
 Software:
 - Java
