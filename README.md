@@ -10,6 +10,7 @@ Software:
 - Java
 - FastQC (https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
 - BBTools (https://jgi.doe.gov/data-and-tools/bbtools/)
+- Prodigal (https://github.com/hyattpd/Prodigal/releases)
 
 *Run FastQC*:  
 Input a directory containing raw read files, input a directory to output files to, and a number of threads to use.
