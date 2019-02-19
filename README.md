@@ -1,5 +1,5 @@
 # BGA-Application
-Application Development for Bacterial Genome Assembly GUI
+GUI for bacterial genome assembly
 
 Offers a GUI for the sake of in-house analysis of raw sequence files (fastq or fastq.gz) from Illumina sequencing services. Three
 options are available: Run FastQC, Quick Assembly, and Assemble Genome. 
