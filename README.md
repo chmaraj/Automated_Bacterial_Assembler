@@ -27,3 +27,5 @@ Note that many steps have been removed, as they are based on extra dependencies 
 the assembler used is Tadpole, instead of Unicycler. Tadpole runs extremely quickly, but spends no time trying to resolve and
 bridge highly repetitive regions, and so will produce a much more fragmented assembly than Unicycler. However, all contained
 sequences are still represented. 
+
+Please contact john.chmara@canada.ca if you want to be placed on an e-mail list to receive notifications of updates.
