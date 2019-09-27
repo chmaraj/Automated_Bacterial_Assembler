@@ -1,4 +1,4 @@
-# BGA-Application
+# CFIAssembly
 GUI for bacterial genome assembly
 
 Offers a GUI for the sake of in-house analysis of raw sequence files (fastq or fastq.gz) from Illumina sequencing services. Three
